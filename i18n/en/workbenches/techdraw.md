@@ -10,7 +10,7 @@ If your primary goal is the production of complex 2D drawings and [DXF](https://
 
 ![TechDraw workbench icon](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1c68621d-3ad3-4cea-a29f-32c8db7b3dd1)  
 _TechDraw workbench icon_  
-![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4a7fa477-fa86-41bc-b1c7-e071d92fc39d)  
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4a7fa477-fa86-41bc-b1c7-e071d92fc39d)
 
 ## Pages
 
@@ -116,66 +116,66 @@ The annotation tools are for "marking up" a drawing with additional information.
 
 These are tools to improve your TechDraw drawings. ([introduced in version 0.20](https://wiki.freecad.org/Release_notes_0.20))
 
-### Attributes and modifications 
+### Attributes and modifications
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a80c1bfc-5f68-494f-9260-afb1a47e92c6) [Select Line Attributes, Cascade Spacing and Delta Distance](https://wiki.freecad.org/TechDraw_ExtensionSelectLineAttributes): selects the attributes (style, width and color) for new cosmetic lines and centerlines, and specifies the cascade spacing and delta distance.
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8b66d3bf-b65b-4c74-bfed-b8f4a3da1fa1) [Change Line Attributes](https://wiki.freecad.org/TechDraw_ExtensionChangeLineAttributes): changes the attributes (style, width and color) of cosmetic lines and centerlines. 
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8b66d3bf-b65b-4c74-bfed-b8f4a3da1fa1) [Change Line Attributes](https://wiki.freecad.org/TechDraw_ExtensionChangeLineAttributes): changes the attributes (style, width and color) of cosmetic lines and centerlines.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d3f6dd6e-1dc6-468a-9899-fc4cdb597b07) Change Length of Cosmetic Lines or Centerlines:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/27e27a40-54ee-42f4-aed2-64ad602d9f28) [Extend Line](https://wiki.freecad.org/TechDraw_ExtensionExtendLine): extends a cosmetic line or centerline at both ends. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1906a1c5-2b11-4589-b486-0db8a67672f0) [Shorten Line](https://wiki.freecad.org/TechDraw_ExtensionShortenLine): shortens a cosmetic line or centerline at both ends. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/27e27a40-54ee-42f4-aed2-64ad602d9f28) [Extend Line](https://wiki.freecad.org/TechDraw_ExtensionExtendLine): extends a cosmetic line or centerline at both ends.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1906a1c5-2b11-4589-b486-0db8a67672f0) [Shorten Line](https://wiki.freecad.org/TechDraw_ExtensionShortenLine): shortens a cosmetic line or centerline at both ends.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1f45f6c3-5b9b-49d5-b87e-a6b014446ad9) [Lock/Unlock View](https://wiki.freecad.org/TechDraw_ExtensionLockUnlockView): locks or unlocks the position of a view.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4cb2ea2f-9a2e-4ee7-840c-dccf31e404dd) [Position Section View](https://wiki.freecad.org/TechDraw_ExtensionPositionSectionView): orthogonally aligns a section view with its source view.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/119352e9-6f37-4e55-bd7e-3f244ed2f22e) Align Dimensions:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b2d21ad3-98f7-4dd4-8f69-8784d9e4faca) [Position Horizontal Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosHorizChainDimension): aligns horizontal dimensions to create a chain dimension. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ac65def1-00c3-4fd5-92f8-fd8a5afc203e) [Position Vertical Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosVertChainDimension): aligns vertical dimensions to create a chain dimension. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b6df1f6a-3f1c-418d-b3a7-727724a266f7) [Position Oblique Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosObliqueChainDimension): aligns oblique dimensions to create a chain dimension. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b2d21ad3-98f7-4dd4-8f69-8784d9e4faca) [Position Horizontal Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosHorizChainDimension): aligns horizontal dimensions to create a chain dimension.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ac65def1-00c3-4fd5-92f8-fd8a5afc203e) [Position Vertical Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosVertChainDimension): aligns vertical dimensions to create a chain dimension.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b6df1f6a-3f1c-418d-b3a7-727724a266f7) [Position Oblique Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionPosObliqueChainDimension): aligns oblique dimensions to create a chain dimension.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/906f1b20-e9ff-49cc-8746-a21898b7ef10) Evenly Space Dimensions:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/fe70c879-37c1-4208-8b33-c915b0a202b2) [Cascade Horizontal Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeHorizDimension): evenly spaces horizontal dimensions. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/262b84ea-e5cb-4a5c-abad-9a451b476e89) [Cascade Vertical Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeVertDimension): evenly spaces vertical dimensions. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b9c13aea-b31c-4d36-8f4e-f8b1eb137449) [Cascade Oblique Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeObliqueDimension): evenly spaces oblique dimensions. 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3adcbf16-67ed-4ba2-aa86-ecbacc179f45) [Calculate the area of selected faces](https://wiki.freecad.org/TechDraw_ExtensionAreaAnnotation): calculates the area of selected faces and inserts an area annotation. 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bc5679e9-5e7e-4c69-b511-45a922d6e3a8) [Customize format label](https://wiki.freecad.org/TechDraw_ExtensionCustomizeFormat): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/fe70c879-37c1-4208-8b33-c915b0a202b2) [Cascade Horizontal Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeHorizDimension): evenly spaces horizontal dimensions.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/262b84ea-e5cb-4a5c-abad-9a451b476e89) [Cascade Vertical Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeVertDimension): evenly spaces vertical dimensions.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b9c13aea-b31c-4d36-8f4e-f8b1eb137449) [Cascade Oblique Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCascadeObliqueDimension): evenly spaces oblique dimensions.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3adcbf16-67ed-4ba2-aa86-ecbacc179f45) [Calculate the area of selected faces](https://wiki.freecad.org/TechDraw_ExtensionAreaAnnotation): calculates the area of selected faces and inserts an area annotation.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bc5679e9-5e7e-4c69-b511-45a922d6e3a8) [Customize format label](https://wiki.freecad.org/TechDraw_ExtensionCustomizeFormat): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added.
 
 ### Centerlines and threading
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ee206fc1-f41f-40bf-b3aa-5efbb1e367be) Add Centerlines:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bb934d5c-b98e-47f8-b683-533a247a652e) [Add Circle Centerlines](https://wiki.freecad.org/TechDraw_ExtensionCircleCenterLines): adds centerlines to circles and arcs. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8e2ca1a1-630a-475e-854e-be804d421e9e) [Add Bolt Circle Centerlines](https://wiki.freecad.org/TechDraw_ExtensionHoleCircle): adds centerlines to a circular pattern of circles. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bb934d5c-b98e-47f8-b683-533a247a652e) [Add Circle Centerlines](https://wiki.freecad.org/TechDraw_ExtensionCircleCenterLines): adds centerlines to circles and arcs.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8e2ca1a1-630a-475e-854e-be804d421e9e) [Add Bolt Circle Centerlines](https://wiki.freecad.org/TechDraw_ExtensionHoleCircle): adds centerlines to a circular pattern of circles.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/643c3fac-663a-4858-bf93-b0b37fe7e18d) Add Cosmetic Threads:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d23b94e3-7935-4d7d-9117-b12f5d0b954a) [Add Cosmetic Thread Hole Side View](https://wiki.freecad.org/TechDraw_ExtensionThreadHoleSide): adds a cosmetic thread to the side view of a hole. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4c036b21-0f4e-4035-9443-9cea58461c66) [Add Cosmetic Thread Hole Bottom View](https://wiki.freecad.org/TechDraw_ExtensionThreadHoleBottom): adds a cosmetic thread to the top or bottom view of holes. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/338f7cff-4c3c-4cbb-aac1-98a9f7660e1f) [Add Cosmetic Thread Bolt Side View](https://wiki.freecad.org/TechDraw_ExtensionThreadBoltSide): adds a cosmetic thread to the side view of a bolt/screw/rod. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/29b08b58-5d78-4457-b8af-62074427bd6e) [Add Cosmetic Thread Bolt Bottom View](https://wiki.freecad.org/TechDraw_ExtensionThreadBoltBottom): adds a cosmetic thread to the top or bottom view of bolts/screws/rods. 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/41828498-876c-425f-8f76-35de4244522e) [Add Cosmetic Intersection Vertex(es)](https://wiki.freecad.org/TechDraw_ExtensionVertexAtIntersection): adds cosmetic vertex(es) at the intersection(s) of selected edges. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d23b94e3-7935-4d7d-9117-b12f5d0b954a) [Add Cosmetic Thread Hole Side View](https://wiki.freecad.org/TechDraw_ExtensionThreadHoleSide): adds a cosmetic thread to the side view of a hole.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4c036b21-0f4e-4035-9443-9cea58461c66) [Add Cosmetic Thread Hole Bottom View](https://wiki.freecad.org/TechDraw_ExtensionThreadHoleBottom): adds a cosmetic thread to the top or bottom view of holes.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/338f7cff-4c3c-4cbb-aac1-98a9f7660e1f) [Add Cosmetic Thread Bolt Side View](https://wiki.freecad.org/TechDraw_ExtensionThreadBoltSide): adds a cosmetic thread to the side view of a bolt/screw/rod.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/29b08b58-5d78-4457-b8af-62074427bd6e) [Add Cosmetic Thread Bolt Bottom View](https://wiki.freecad.org/TechDraw_ExtensionThreadBoltBottom): adds a cosmetic thread to the top or bottom view of bolts/screws/rods.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/41828498-876c-425f-8f76-35de4244522e) [Add Cosmetic Intersection Vertex(es)](https://wiki.freecad.org/TechDraw_ExtensionVertexAtIntersection): adds cosmetic vertex(es) at the intersection(s) of selected edges.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/0d2c51d7-5038-4851-8b8f-23c4205f5aa8) Add Cosmetic Circles or Arcs:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/5d882988-9561-448a-8703-22a9ea154479) [Add Cosmetic Circle](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmCircle): adds a cosmetic circle based on two vertexes. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3c2b3f8b-e846-462c-9831-ee9ea9848dba) [Add Cosmetic Arc](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmArc): adds a cosmetic counter clockwise arc based on three vertexes. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1ab5ce05-7198-4226-bf23-6f2fbd00c16a) [Add Cosmetic Circle 3 Points](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmCircle3Points): adds a cosmetic circle based on three vertexes. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/5d882988-9561-448a-8703-22a9ea154479) [Add Cosmetic Circle](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmCircle): adds a cosmetic circle based on two vertexes.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3c2b3f8b-e846-462c-9831-ee9ea9848dba) [Add Cosmetic Arc](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmArc): adds a cosmetic counter clockwise arc based on three vertexes.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1ab5ce05-7198-4226-bf23-6f2fbd00c16a) [Add Cosmetic Circle 3 Points](https://wiki.freecad.org/TechDraw_ExtensionDrawCosmCircle3Points): adds a cosmetic circle based on three vertexes.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/80df505a-dc66-45b1-8187-b70f3a425b1d) Add Cosmetic Parallel or Perpendicular Lines:
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/730b45e4-0aa6-464b-b78d-d9a4806fd307) [Add Cosmetic Parallel Line](https://wiki.freecad.org/TechDraw_ExtensionLineParallel): adds a cosmetic line parallel to another line through a vertex.
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7fd26fe7-dd9d-4886-9a2e-7607099e6a92) [Add Cosmetic Perpendicular Line](https://wiki.freecad.org/TechDraw_ExtensionLinePerpendicular): adds a cosmetic line perpendicular to another line through a vertex. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7fd26fe7-dd9d-4886-9a2e-7607099e6a92) [Add Cosmetic Perpendicular Line](https://wiki.freecad.org/TechDraw_ExtensionLinePerpendicular): adds a cosmetic line perpendicular to another line through a vertex.
 
 ### Dimensions
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/30c50273-b51d-4d11-9cbb-dd4e79b2c160) Create Chain Dimensions:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f997331a-2066-4c0f-9301-e5c6dd2b1abb) [Create Horizontal Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizChainDimension): creates a sequence of aligned horizontal dimensions. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6bc273c6-52bc-4b8b-bd72-bf6304ad7347) [Create Vertical Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateVertChainDimension): creates a sequence of aligned vertical dimensions. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b45e42bd-fd6b-4aef-86ec-e13715631598) [Create Oblique Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateObliqueChainDimension): creates a sequence of aligned oblique dimensions. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f997331a-2066-4c0f-9301-e5c6dd2b1abb) [Create Horizontal Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizChainDimension): creates a sequence of aligned horizontal dimensions.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6bc273c6-52bc-4b8b-bd72-bf6304ad7347) [Create Vertical Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateVertChainDimension): creates a sequence of aligned vertical dimensions.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b45e42bd-fd6b-4aef-86ec-e13715631598) [Create Oblique Chain Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateObliqueChainDimension): creates a sequence of aligned oblique dimensions.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/330e04b9-9842-4d32-918d-2143e7e24d2e) Create Coordinate Dimensions:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/c650e5d3-1b2f-4c3a-8f5c-18552d346e76) [Create Horizontal Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizCoordDimension): creates multiple evenly spaced horizontal dimensions starting from the same baseline. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4b01fdf1-f8b7-4f6c-8728-b1fb69cf5304) [Create Vertical Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateVertCoordDimension): creates multiple evenly spaced vertical dimensions starting from the same baseline. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6e2f3202-cf83-45d5-8808-6b2b1740a482) [Create Oblique Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateObliqueCoordDimension): creates multiple evenly spaced oblique dimensions starting from the same baseline. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/c650e5d3-1b2f-4c3a-8f5c-18552d346e76) [Create Horizontal Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizCoordDimension): creates multiple evenly spaced horizontal dimensions starting from the same baseline.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4b01fdf1-f8b7-4f6c-8728-b1fb69cf5304) [Create Vertical Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateVertCoordDimension): creates multiple evenly spaced vertical dimensions starting from the same baseline.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6e2f3202-cf83-45d5-8808-6b2b1740a482) [Create Oblique Coordinate Dimensions](https://wiki.freecad.org/TechDraw_ExtensionCreateObliqueCoordDimension): creates multiple evenly spaced oblique dimensions starting from the same baseline.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e138f1db-1efc-46c2-a338-6887d6c66d6b) Create Chamfer Dimensions:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/883294a9-da76-4a4f-a0fd-cfc4c537999b) [Create Horizontal Chamfer Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizChamferDimension): creates a horizontal size and angle dimension for a chamfer. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6f5f63e6-b36d-43c6-a40a-a13064e68e4b) [Create Vertical Chamfer Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateVertChamferDimension): creates a vertical size and angle dimension for a chamfer. 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/9f291edd-5010-413e-ad6c-3ea789d39bfa) [Create Arc Length Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateLengthArc): creates an arc length dimension. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/883294a9-da76-4a4f-a0fd-cfc4c537999b) [Create Horizontal Chamfer Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateHorizChamferDimension): creates a horizontal size and angle dimension for a chamfer.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6f5f63e6-b36d-43c6-a40a-a13064e68e4b) [Create Vertical Chamfer Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateVertChamferDimension): creates a vertical size and angle dimension for a chamfer.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/9f291edd-5010-413e-ad6c-3ea789d39bfa) [Create Arc Length Dimension](https://wiki.freecad.org/TechDraw_ExtensionCreateLengthArc): creates an arc length dimension.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4a7e4576-f7df-44a8-8e30-aaca80409f43) Insert Prefix:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/9668a24e-4d51-4373-8f1a-3a93df046724) [Insert '⌀' Prefix](https://wiki.freecad.org/TechDraw_ExtensionInsertDiameter): inserts a '⌀' symbol at the beginning of the dimension text. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d10053e0-0127-423f-8a5b-14d7f68e8b1d) [Insert '〼' Prefix](https://wiki.freecad.org/TechDraw_ExtensionInsertSquare): inserts a '〼' symbol at the beginning of the dimension text. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3cb464ed-7a71-4f51-bfe7-b5edddd481c6) [Remove Prefix](https://wiki.freecad.org/TechDraw_ExtensionRemovePrefixChar): removes all symbols at the beginning of the dimension text. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/9668a24e-4d51-4373-8f1a-3a93df046724) [Insert '⌀' Prefix](https://wiki.freecad.org/TechDraw_ExtensionInsertDiameter): inserts a '⌀' symbol at the beginning of the dimension text.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d10053e0-0127-423f-8a5b-14d7f68e8b1d) [Insert '〼' Prefix](https://wiki.freecad.org/TechDraw_ExtensionInsertSquare): inserts a '〼' symbol at the beginning of the dimension text.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3cb464ed-7a71-4f51-bfe7-b5edddd481c6) [Remove Prefix](https://wiki.freecad.org/TechDraw_ExtensionRemovePrefixChar): removes all symbols at the beginning of the dimension text.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4954b526-7cfa-4483-8ca1-752474d9b3f3) Change Decimal Places:
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7cfa22a6-b9c4-47bd-9ac8-6e3d5b04bb40) [Increase Decimal Places](https://wiki.freecad.org/TechDraw_ExtensionIncreaseDecimal): increases the number of decimal places of the dimension text. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a60294f0-2f82-4f8d-bef7-718569e7d35a) [Decrease Decimal Places](https://wiki.freecad.org/TechDraw_ExtensionDecreaseDecimal): decreases the number of decimal places of the dimension text. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7cfa22a6-b9c4-47bd-9ac8-6e3d5b04bb40) [Increase Decimal Places](https://wiki.freecad.org/TechDraw_ExtensionIncreaseDecimal): increases the number of decimal places of the dimension text.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a60294f0-2f82-4f8d-bef7-718569e7d35a) [Decrease Decimal Places](https://wiki.freecad.org/TechDraw_ExtensionDecreaseDecimal): decreases the number of decimal places of the dimension text.
 
 ## Export
 
@@ -183,7 +183,7 @@ These are tools for exporting pages to other applications.
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8e30f82e-3395-480e-b3f2-6f06deac14a3) [Export Page as SVG](https://wiki.freecad.org/TechDraw_ExportPageSVG): saves the current page as [SVG](https://wiki.freecad.org/SVG) file.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3c84226f-9785-4e11-980f-05da6f3e876d) [Export Page as DXF](https://wiki.freecad.org/TechDraw_ExportPageDXF): saves the current page as [DXF](https://wiki.freecad.org/DXF) file.
-  
+
 ## Additional features
 
 - [Line Groups](https://wiki.freecad.org/TechDraw_LineGroup): to control the appearance of various types of lines.
@@ -198,10 +198,11 @@ These are tools for exporting pages to other applications.
 ## Scripting
 
 The TechDraw tools can be used in macros and from the Python console. For more information, see:
+
 - [Autogenerated API documentation](https://freecad.github.io/SourceDoc/)
 - [FreeCAD Scripting Basics](docs\python-scripting\python-in-freecad.md)
 - [Editable Text Fields](https://wiki.freecad.org/TechDraw_PageDefault#Editable_text_fields)
-  
+
 ## Limitations
 
 - Do not cut, copy and paste TechDraw objects in the [Tree view](https://wiki.freecad.org/Tree_view) as this generally does not work out well.
@@ -212,17 +213,18 @@ The TechDraw tools can be used in macros and from the Python console. For more i
 - [Basic TechDraw Tutorial](https://wiki.freecad.org/Basic_TechDraw_Tutorial): introduction to creating drawings with the TechDraw Workbench.
 - [Creating a new template](https://wiki.freecad.org/TechDraw_TemplateHowTo): instructions to create a new page template in Inkscape for using with the TechDraw Workbench.
 - [TechDraw TemplateGenerator](https://wiki.freecad.org/TechDraw_TemplateGenerator): instructions to create a macro for generating a basic template.
-A "few" added lines of code result in a tool like the [Macro TemplateHelper](https://wiki.freecad.org/Macro_TemplateHelper).
+  A "few" added lines of code result in a tool like the [Macro TemplateHelper](https://wiki.freecad.org/Macro_TemplateHelper).
 - [Measurement Of Angles On Holes](https://wiki.freecad.org/Measurement_Of_Angles_On_Holes): instructions for adding centerlines and subsequent angle representations on holes.
 - [Miscellaneous](https://wiki.freecad.org/TechDraw_HowTo_Page): instructions for different settings like center marks, etc.
 - [TechDraw Pitch Circle Tutorial](https://wiki.freecad.org/TechDraw_Pitch_Circle_Tutorial): instructions for adding a pitch circle.
 
 Video tutorials by sliptonic:
-  - [Part 1](https://www.youtube.com/watch?v=7LbOmSGW9F0) (Basics)
-  - [Part 2](https://www.youtube.com/watch?v=z3w84RfvqaE) (Dimensions)
-  - [Part 3](https://www.youtube.com/watch?v=uNjXg-m38aI) (Multiview)
-  - [Part 4](https://www.youtube.com/watch?v=3zSdeFV6I5o) (Section and Detail)
-  - [Part 5](https://www.youtube.com/watch?v=kcmdJ7xa7gg) (Customizing Templates)
+
+- [Part 1](https://www.youtube.com/watch?v=7LbOmSGW9F0) (Basics)
+- [Part 2](https://www.youtube.com/watch?v=z3w84RfvqaE) (Dimensions)
+- [Part 3](https://www.youtube.com/watch?v=uNjXg-m38aI) (Multiview)
+- [Part 4](https://www.youtube.com/watch?v=3zSdeFV6I5o) (Section and Detail)
+- [Part 5](https://www.youtube.com/watch?v=kcmdJ7xa7gg) (Customizing Templates)
 
 ## Development
 

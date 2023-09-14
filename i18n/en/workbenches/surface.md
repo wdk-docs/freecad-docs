@@ -5,6 +5,7 @@
 The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/97a67f8d-39f6-42cc-925c-76b2e7c841ca) **Surface Workbench** provides tools to create and modify simple [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). These tools have similar functionality to the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/39ab694b-29be-4607-a170-b2905efa6e6b) [Part Builder](https://wiki.freecad.org/Part_Builder) tool when the **Face from edges** option is used. However, unlike that tool, the tools of the Surface Workbench are parametric and provide additional options. In this respect, the tools in this workbench are similar to ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f1ad8001-04b6-4496-984f-c6fe597c8603) [PartDesign AdditiveLoft](https://wiki.freecad.org/PartDesign_AdditiveLoft) and ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/479f50c0-96be-45f1-a110-f4cb158e2080) [PartDesign AdditivePipe](https://wiki.freecad.org/PartDesign_AdditivePipe).
 
 Some of the features provided are:
+
 - Creation of surfaces from boundary edges.
 - Alignment of the curvature from neighboring faces.
 - Constraining of surfaces to additional curves and vertices.
@@ -12,16 +13,16 @@ Some of the features provided are:
 - A mesh can be used as a template to create spline curves on its surface.
 
 ![Surface workbench icon](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ba8681df-5f3f-4772-9b81-f458b612593a)  
-_Surface workbench icon_  
+_Surface workbench icon_
 
-![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d00b5223-0dcb-4db8-8b0c-bb2420121174)  
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d00b5223-0dcb-4db8-8b0c-bb2420121174)
 
 ## Usage
 
 The Surface Workbench intends to create faces with shapes, which is not possible to do with the standard tools in other workbenches.
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/90bf3d6e-9684-4c6e-aaca-9bd19f72a969)  
-_Surface created with sketches placed in datum planes with the tools of the [PartDesign Workbench](docs\workbenches\part-design.md)_  
+_Surface created with sketches placed in datum planes with the tools of the [PartDesign Workbench](docs\workbenches\part-design.md)_
 
 The Surface Workbench integrates with other workbenches of FreeCAD. The above example was created from ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d43eb877-0534-4d14-a82f-2a995ed0be1b) [Sketches](https://wiki.freecad.org/Sketch) placed on ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f0771a36-d2d9-4227-b9b8-88d2d5921dca) [PartDesign Datum planes](https://wiki.freecad.org/PartDesign_Plane) in the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3fd990e9-04a9-4adb-8458-fcc12d764b38) [PartDesign Workbench](docs\workbenches\part-design.md). The design can be fully parametric if all datum planes and sketches are defined accordingly. In most cases it is sufficient to draw a closed sketch to define the boundary of a face, and then use different options to further modify its shape.
 

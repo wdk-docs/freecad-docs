@@ -13,20 +13,20 @@ const TwitterSvg =
 
 module.exports = async function createConfigAsync() {
   return {
-    title: "FreeCAD documentation",
-    tagline: "CAD is cool",
+    title: "FreeCAD 文档",
+    tagline: "CAD很酷",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://your-docusaurus-test-site.com",
+    url: "https://wdk-docs.github.com",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "FreeCAD", // Usually your GitHub org/user name.
-    projectName: "FreeCAD-docusaurus-documentation", // Usually your repo name.
+    organizationName: "wdk-docs", // Usually your GitHub org/user name.
+    projectName: "freecad-docs", // Usually your repo name.
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -68,12 +68,12 @@ module.exports = async function createConfigAsync() {
             showLastUpdateAuthor: true,
             showLastUpdateTime: true,
             // Remove this to remove the "edit this page" links.
-            editUrl: "https://github.com/FreeCAD/FreeCAD-documentation-docusaurus",
+            editUrl: "https://github.com/wdk-docs/freecad-docs",
           },
           blog: {
             showReadingTime: true,
             // Remove this to remove the "edit this page" links.
-            editUrl: "https://github.com/FreeCAD/FreeCAD-documentation-docusaurus",
+            editUrl: "https://github.com/wdk-docs/freecad-docs",
           },
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
@@ -120,7 +120,7 @@ module.exports = async function createConfigAsync() {
               type: "docSidebar",
               sidebarId: "tutorialSidebar",
               position: "left",
-              label: "Tutorial",
+              label: "文档",
             },
             // {
             //   to: 'https://yorik.uncreated.net/blog/2023-021-freecad-weekly14',
@@ -143,7 +143,7 @@ module.exports = async function createConfigAsync() {
             },
             {
               href: "https://wiki.freecad.org/Feature_list",
-              label: "Release Notes",
+              label: "发布说明",
               position: "right",
             },
             {

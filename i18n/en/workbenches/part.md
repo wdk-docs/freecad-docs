@@ -11,10 +11,10 @@ The objects created with the Part Workbench are relatively simple; they are inte
 Part objects are more complex than mesh objects created with the [Mesh Workbench](docs\workbenches\mesh.md), as they permit more advanced operations like coherent boolean operations, modifications history, and parametric behaviour.
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/2ccc0bdb-7df0-446f-a499-8f22c730e232)  
-_Part workbench icon_  
+_Part workbench icon_
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/8b927ccc-f847-45aa-b74a-f5a7de573c15)  
-_The Part Workbench is the basic layer that exposes the OCCT drawing functions to all workbenches in FreeCAD._  
+_The Part Workbench is the basic layer that exposes the OCCT drawing functions to all workbenches in FreeCAD._
 
 ## Tools
 
@@ -105,8 +105,8 @@ These tools perform boolean operations.
 
 ### Other tools
 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/0cad8205-8e8e-40f5-aabe-a26d62dbef1e) [Import](https://wiki.freecad.org/Part_Import): Imports from *.IGES, *.STEP, or *.BREP files.
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a20d7d25-ba39-4ac1-ae08-73d5334debee) [Export](https://wiki.freecad.org/Part_Export): Exports to *.IGES, *.STEP, or *.BREP files.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/0cad8205-8e8e-40f5-aabe-a26d62dbef1e) [Import](https://wiki.freecad.org/Part_Import): Imports from _.IGES, _.STEP, or \*.BREP files.
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a20d7d25-ba39-4ac1-ae08-73d5334debee) [Export](https://wiki.freecad.org/Part_Export): Exports to _.IGES, _.STEP, or \*.BREP files.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bde6b80e-8528-4e44-9b67-fccd3a633533) [Box selection](https://wiki.freecad.org/Part_BoxSelection): Selects faces from a rectangular area.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a36912a0-7fe7-4480-b3bb-179e410c83b4) [Create shape from mesh](https://wiki.freecad.org/Part_ShapeFromMesh): Creates a shape object from a mesh object.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f3ec0fb3-a124-4387-a7a5-fe414a0c5ce6) [Create points object from geometry](https://wiki.freecad.org/Part_PointsFromMesh): Creates a points object from a geometric object.

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7c83eade-2c54-4e5b-a1d3-486ff8f6bfb0) TechDraw Workbench is used to produce basic technical drawings from 3D models created with another workbench, such as [Part](docs\workbenches\part.md), [PartDesign](docs\workbenches\part-design.md), or [Arch](docs\workbenches\arch.md), or imported from other applications. Each drawing is a Page, which can contain various Views of drawable objects such as Part::Features, PartDesign::Bodies, App::Part groups, and Document Object groups. The resulting drawings can be used for things like documentation, manufacturing instructions, contracts, permits, etc.
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7c83eade-2c54-4e5b-a1d3-486ff8f6bfb0) TechDraw 工作台用于从另一个工作台创建的 3D 模型中生成基本的技术图纸，例如[Part](docs\workbenches\part.md)， [PartDesign](docs\workbenches\part-design.md)或[Arch](docs\workbenches\Arch.md)，或从其他应用程序导入。每个绘图都是一个页面，其中可以包含可绘制对象的各种视图，例如 Part::Features、PartDesign::Bodies、App::Part 组和 Document Object 组。生成的图纸可以用于文档、制造说明、合同、许可证等。
 
-Dimensions, sections, hatched areas, annotations, and [SVG](https://wiki.freecad.org/SVG) symbols can be added to the page, which can be further exported to different formats like [DXF](https://wiki.freecad.org/DXF), [SVG](https://wiki.freecad.org/SVG), and [PDF](https://wiki.freecad.org/PDF).
+可以将维度、部分、孵化区域、注释和[SVG](https://wiki.freecad.org/SVG)符号添加到页面中，这些符号可以进一步导出为不同的格式，如[DXF](https://wiki.freecad.org/DXF)、[SVG](https://wiki.freecad.org/SVG)和[PDF](https://wiki.freecad.org/PDF)。
 
-If your primary goal is the production of complex 2D drawings and [DXF](https://wiki.freecad.org/DXF) files, and you don't need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad).
+如果您的主要目标是制作复杂的 2D 图纸和[DXF](https://wiki.freecad.org/DXF)文件，并且您不需要 3D 建模，FreeCAD 可能不是您的正确选择。您可能希望考虑一个专门用于技术起草的软件程序，例如[LibreCAD](https://en.wikipedia.org/wiki/LibreCAD)或[QCad](https://en.wikipedia.org/wiki/QCad)。
 
 ![TechDraw workbench icon](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1c68621d-3ad3-4cea-a29f-32c8db7b3dd1)  
 _TechDraw workbench icon_  

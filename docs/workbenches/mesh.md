@@ -1,8 +1,9 @@
-# 网工作台
+# 网格工作台
 
-## Introduction
+## 介绍
 
-The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d4556ede-b7c0-41e0-a97e-fd187c75d8d1) **Mesh Workbench** handles [triangle meshes](http://en.wikipedia.org/wiki/Triangle_mesh). Meshes are a special type of 3D object composed of triangular faces connected by their vertices and edges.
+![图像](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d4556ede-b7c0-41e0-a97e-fd187c75d8d1) **网格工作台**处理[三角形网格](http://en.wikipedia.org/wiki/Triangle_mesh)。
+网格是一种特殊类型的 3D 对象，由顶点和边缘连接的三角形面组成。
 
 Many 3D applications, like [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](<http://en.wikipedia.org/wiki/Blender_(software)>), [Maya](<http://en.wikipedia.org/wiki/Maya_(software)>), and [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), use meshes as their primary type of 3D object. Since meshes are very simple objects, containing only vertices (points), edges, and triangular faces, they are very easy to create, modify, subdivide, and stretch, and can easily be passed from one application to another without any loss of details. In addition, since meshes contain very simple data, 3D applications can usually manage very large quantities of them without using a lot of resources. For these reasons, meshes are often the 3D object type of choice for applications dealing with movies, animation, and image creation.
 

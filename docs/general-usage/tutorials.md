@@ -1,40 +1,40 @@
 # 教程
 
-This page presents a selection of high-quality written tutorials. A complete, unsorted list of tutorials can be found in [Category: Tutorials](https://wiki.freecad.org/Category:Tutorials), a complete and sortable one can be found in the [table below](https://wiki.freecad.org/Tutorials#Tutorials_-_Comprehensive_list).
+本页提供了一系列高质量的书面教程。一个完整的、未排序的教程列表可以在[Category: tutorials](https://wiki.freecad.org/Category:Tutorials)中找到，一个完整的、可排序的可以在[下表](https://wiki.freecad.org/Tutorials#Tutorials_-_Comprehensive_list)中找到。
 
-If you'd like to contribute with writing wiki documentation and tutorials, see the general wiki guidelines in [WikiPages](https://wiki.freecad.org/WikiPages), and read the [Tutorial guidelines](https://wiki.freecad.org/Tutorial_guidelines).
+如果您想参与编写 wiki 文档和教程，请参阅[WikiPages](https://wiki.freecad.org/WikiPages)中的通用 wiki 指南，并阅读[教程指南](https://wiki.freecad.org/Tutorial_guidelines)。
 
-Please notice the version of FreeCAD used in the tutorial, as some tutorials may use an old version of the program. Although the general modeling process may still work, some tools may have changed.
+请注意教程中使用的 FreeCAD 版本，因为有些教程可能使用旧版本的程序。尽管一般的建模过程可能仍然有效，但是一些工具可能已经改变了。
 
-See also [video tutorials](https://wiki.freecad.org/Video_tutorials) and [books](https://wiki.freecad.org/Books).
+参见[视频教程](https://wiki.freecad.org/Video_tutorials)和[书籍](https://wiki.freecad.org/Books)。
 
-## Architecture and BIM
+## 建筑与 BIM
 
 ![Arch tutorial](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/fc0c799d-2f3b-4aef-8ee1-5cc6e34693ae)  
-[Arch tutorial](https://wiki.freecad.org/Arch_tutorial) (v0.14)  
-This is the essential introduction to the Arch Workbench. It is extensive and showcases a typical workflow, from importing plans in DXF format to building the 3D model.
+[Arch 教程](https://wiki.freecad.org/Arch_tutorial) (v0.14)
+这是 Arch Workbench 的基本介绍。它是广泛的，并展示了一个典型的工作流程，从导入计划在 DXF 格式构建 3D 模型。
 
 ![BIM modelling](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/009b9ceb-031b-46cc-ba9a-76145ea964c4)  
-[BIM modeling](https://wiki.freecad.org/Manual:BIM_modeling)  
-How to model a small house, produce a blueprint with TechDraw, and export to IFC.
+[BIM 建模](https://wiki.freecad.org/Manual:BIM_modeling)  
+如何建立一个小房子的模型，用 TechDraw 制作蓝图，并出口到国际金融公司。
 
 ![Open Windows and Doors](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/fc33c924-16cf-49e1-8db5-2cfb1fd1412a)  
-[Open windows and doors](https://wiki.freecad.org/Tutorial_for_open_windows) (v0.18)  
-How to display windows and doors as open, with elevation and plan symbols, and produce a basic floor plan with TechDraw.
+[打开门窗](https://wiki.freecad.org/Tutorial_for_open_windows) (v0.18)  
+如何用立面和平面符号显示打开的门窗，并使用 TechDraw 生成基本平面图。
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/fccc3bf2-4df3-4340-8165-f8eb85652717)  
-[Design custom windows](https://wiki.freecad.org/Tutorial_custom_placing_of_windows_and_doors) (v0.18)  
-How to draw custom doors and windows using the Sketcher, and adjust their normals to correctly place them in walls.
+[设计自定义窗口](https://wiki.freecad.org/Tutorial_custom_placing_of_windows_and_doors) (v0.18)  
+如何使用 Sketcher 绘制自定义门窗，并调整其法线以正确地将其放置在墙壁上。
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/c7cf0966-1396-4f34-8104-08a633f563d6)  
-[Arch panel tutorial](https://wiki.freecad.org/Arch_panel_tutorial) (v0.15)  
-Modeling a microhouse roof panel by using the Sketcher, the Window tool, and the Panel tool.
+[拱板教程](https://wiki.freecad.org/Arch_panel_tutorial) (v0.15)  
+通过使用 Sketcher, Window 工具和 panel 工具建模一个微屋屋顶面板。
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/37fd1c59-724c-41d1-9b46-0959b69784d9)  
-[WikiHouse modelling](https://wiki.freecad.org/Wikihouse_porting_tutorial)  
-Re-modeling the WikiHouse project using sketches and panels, starting from importing a mesh model created in SketchUp.
+[维基之家建模](https://wiki.freecad.org/Wikihouse_porting_tutorial)  
+使用草图和面板重新建模 WikiHouse 项目，从导入 SketchUp 中创建的网格模型开始。
 
-## Modeling parts
+## 建模部分
 
 FreeCAD provides two main workflows to modeling parts:
 
@@ -102,7 +102,7 @@ The Raspberry Pi project has made simple tutorials that are easy to follow, part
 - [freecad-chess-set](https://projects.raspberrypi.org/en/projects/freecad-chess-set), model and entire chess set in Bauhaus modernist style.
 - [raspberrypilearning repository](https://github.com/raspberrypilearning?utf8=%E2%9C%93&q=freecad&type=source&language=) (CC-BY 4.0) with other examples.
 
-## Drafting and Sketching
+## 绘图和素描
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/310adaca-7ce8-485f-b55c-371a68ce42a5)  
 [Traditional 2D drafting](https://wiki.freecad.org/Manual:Traditional_2D_drafting)  
@@ -124,7 +124,7 @@ This is a basic introduction to the tools of the Sketcher Workbench: constructio
 [Sketcher constraints practices](https://wiki.freecad.org/Sketcher_Micro_Tutorial_-_Constraint_Practices) (v0.19)  
 Learn to efficiently constrain a sketch. Prefer geometric constraints over datum constraints.
 
-## Technical Drawings
+## 技术图纸
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6a7f3176-42fa-4e69-bf80-ebdaf28b39bb)  
 [Basic TechDraw Tutorial](https://wiki.freecad.org/Basic_TechDraw_Tutorial) (v0.17)  
@@ -164,7 +164,7 @@ This example shows how to simulate a capacitance. It illustrates how to setup th
 [Post-Processing of FEM results with Paraview](https://wiki.freecad.org/Post-Processing_of_FEM_Results_with_Paraview) (v0.19)  
 This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
-## CNC & 3D Printing
+## CNC 和 3D 打印
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a36f3d80-d86b-483c-9a9b-0b07577c220c)  
 [Path Workbench for the impatient](https://wiki.freecad.org/Path_Walkthrough_for_the_Impatient)  
@@ -174,7 +174,7 @@ This is a quick presentation of the workflow for the Path Workbench: create a jo
 [Preparing models for 3D printing](https://wiki.freecad.org/Manual:Preparing_models_for_3D_printing) (v0.16)
 Convert a solid object to a mesh object using the Mesh Workbench, export the mesh to STL format, and use Slic3r to prepare the G-code. Alternatively use the Cura Workbench or the Path Workbench to generate the G-code.
 
-## Rendering
+## 渲染
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e0614f3f-2095-408e-a8fb-a04fde193d0c)  
 [Creating renderings](https://wiki.freecad.org/Manual:Creating_renderings)  
@@ -192,7 +192,7 @@ Workflow to produce a better render with POV-Ray: create a project, add objects,
 [Rendering a FreeCAD assembly with Blender](https://wiki.freecad.org/Tutorial_Render_with_Blender) (v0.18)  
 Export bodies from FreeCAD to Wavefront .obj, import the file into Blender, set up a simple Sun light, assign basic materials with the Principled BSDF shader, and produce a rendered image with EEVEE and Cycles.
 
-## Robot workbench
+## 机器人工作台
 
 ```
 Development of the Robot Workbench is currently abandoned. Please inquire on our forum regarding any news or alternative workbenches.
@@ -202,17 +202,17 @@ Development of the Robot Workbench is currently abandoned. Please inquire on our
 [Robot tutorial](https://wiki.freecad.org/Robot_tutorial) (v0.17)  
 Simulate the movement of an industrial robot: set up a trajectory, set up home position, change the robot position, insert various waypoints, and simulate the robot movement.
 
-## Scripting
+## 脚本
 
-These are tutorials that are related to scripting or programming. They are geared towards more experienced users, who are already somewhat familiar with the program.
+这些是与脚本或编程相关的教程。它们面向的是更有经验的用户，他们已经对该程序有所熟悉。
 
 - [Python scripting tutorial](https://wiki.freecad.org/Python_scripting_tutorial)
 - [How to install macros](https://wiki.freecad.org/How_to_install_macros)
 - [How to install additional workbenches](https://wiki.freecad.org/How_to_install_additional_workbenches)
 
-## Tutorials - Comprehensive list
+## 教程-综合列表
 
-Here are listed all the tutorials that are not in the manual **regardless of their quality**. If a tutorial is listed in the [Category: Tutorials](https://wiki.freecad.org/Category:Tutorials) and not in this table please insert it.
+这里列出了所有不在手册中的教程**无论其质量如何**。如果教程列在[类别:教程](https://wiki.freecad.org/Category:Tutorials)中，而不在此表中，请将其插入。
 
 | Tutorial                                                                                                                                 | Topic                   | Level                 | Time to complete (hh:mm)                                                       | Authors                                                                  | FreeCAD version                                                                                                                                                  | Example files                                                                                                                                                                                                                                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |

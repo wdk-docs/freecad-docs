@@ -1,8 +1,8 @@
-# 工作台表面
+# 表面工作台
 
-## Introduction
+## 介绍
 
-The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/97a67f8d-39f6-42cc-925c-76b2e7c841ca) **Surface Workbench** provides tools to create and modify simple [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). These tools have similar functionality to the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/39ab694b-29be-4607-a170-b2905efa6e6b) [Part Builder](https://wiki.freecad.org/Part_Builder) tool when the **Face from edges** option is used. However, unlike that tool, the tools of the Surface Workbench are parametric and provide additional options. In this respect, the tools in this workbench are similar to ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f1ad8001-04b6-4496-984f-c6fe597c8603) [PartDesign AdditiveLoft](https://wiki.freecad.org/PartDesign_AdditiveLoft) and ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/479f50c0-96be-45f1-a110-f4cb158e2080) [PartDesign AdditivePipe](https://wiki.freecad.org/PartDesign_AdditivePipe).
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/97a67f8d-39f6-42cc-925c-76b2e7c841ca) **表面工作台**提供了创建和修改简单的[NURBS 曲面](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline)的工具。当使用**Face from edges**选项时，这些工具具有类似于![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/39ab694b-29be-4607-a170-b2905efa6e6b) [零件构建器](https://wiki.freecad.org/Part_Builder)工具的功能。然而，与该工具不同的是，Surface Workbench 的工具是参数化的，并提供了额外的选项。在这方面，本工作台中的工具类似于![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f1ad8001-04b6-4496-984f-c6fe597c8603) [零件设计增材阁楼](https://wiki.freecad.org/PartDesign_AdditiveLoft)和![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/479f50c0-96be-45f1-a110-f4cb158e2080) [零件设计](https://wiki.freecad.org/PartDesign_AdditivePipe)。
 
 Some of the features provided are:
 

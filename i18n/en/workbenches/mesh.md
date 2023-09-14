@@ -4,14 +4,14 @@
 
 The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/d4556ede-b7c0-41e0-a97e-fd187c75d8d1) **Mesh Workbench** handles [triangle meshes](http://en.wikipedia.org/wiki/Triangle_mesh). Meshes are a special type of 3D object composed of triangular faces connected by their vertices and edges.
 
-Many 3D applications, like [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)), and [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), use meshes as their primary type of 3D object. Since meshes are very simple objects, containing only vertices (points), edges, and triangular faces, they are very easy to create, modify, subdivide, and stretch, and can easily be passed from one application to another without any loss of details. In addition, since meshes contain very simple data, 3D applications can usually manage very large quantities of them without using a lot of resources. For these reasons, meshes are often the 3D object type of choice for applications dealing with movies, animation, and image creation.
+Many 3D applications, like [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](<http://en.wikipedia.org/wiki/Blender_(software)>), [Maya](<http://en.wikipedia.org/wiki/Maya_(software)>), and [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), use meshes as their primary type of 3D object. Since meshes are very simple objects, containing only vertices (points), edges, and triangular faces, they are very easy to create, modify, subdivide, and stretch, and can easily be passed from one application to another without any loss of details. In addition, since meshes contain very simple data, 3D applications can usually manage very large quantities of them without using a lot of resources. For these reasons, meshes are often the 3D object type of choice for applications dealing with movies, animation, and image creation.
 
 However, in the field of engineering, meshes present a big limitation: they cannot accurately define curved surfaces. This is why FreeCAD relies on [Brep](http://en.wikipedia.org/wiki/Boundary_representation) instead. The Mesh Workbench offers some commands to directly manipulate meshes, but it is most often used to import 3D mesh data and convert it to a solid for use with the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/abb5c30c-fc56-4103-aeac-8919614eebfa) [Part Workbench](docs\workbenches\part.md) or ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a25ef1d3-a92a-4b21-996f-5d79aac0956f) [PartDesign Workbench](docs\workbenches\part-design.md).
 
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e001dda0-5244-42c2-b649-624e0814f77d)  
 _Mesh workbench icon_
 
-![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/749e4466-cbc5-4fb7-9fd5-70002c940cf4)  
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/749e4466-cbc5-4fb7-9fd5-70002c940cf4)
 
 ## Tools
 
@@ -71,4 +71,3 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 - See [Mesh Scripting](https://wiki.freecad.org/Mesh_Scripting) to manipulate and create meshes using [Python](https://wiki.freecad.org/Python).
 - See also [FreeCAD and Mesh Import](https://wiki.freecad.org/FreeCAD_and_Mesh_Import)
 - See [Asymptote](https://wiki.freecad.org/Asymptote) to export meshes to the Asymptote format.
-  

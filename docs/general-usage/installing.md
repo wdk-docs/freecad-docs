@@ -32,7 +32,7 @@ FreeCAD 支持几个现成的第三方软件包。在许多情况下，你所需
 
 #### OpenSCAD
 
-[OpenSCAD](https://www.openscad.org/)是一个实体 3D 建模器。[OpenSCAD Workbench](docs\Workbench\OpenSCAD.md)依赖于此软件，[Mesh Workbench](<docs\ Workbench\Mesh.md>)使用它作为其布尔工具。使用[Std import](https://wiki.freecad.org/Std_Import)工具导入 SCAD 文件时，也需要使用此命令。
+[OpenSCAD](https://www.openscad.org/)是一个实体 3D 建模器。[OpenSCAD Workbench](docs\workbenches\OpenSCAD.md)依赖于此软件，[Mesh Workbench](<docs\ Workbench\Mesh.md>)使用它作为其布尔工具。使用[Std import](https://wiki.freecad.org/Std_Import)工具导入 SCAD 文件时，也需要使用此命令。
 
 ### 文件格式
 

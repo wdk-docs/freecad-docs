@@ -1,6 +1,6 @@
 # User hub
 
-![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/220b384d-f361-4df5-b3de-83cde2f35254)  
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/220b384d-f361-4df5-b3de-83cde2f35254)
 
 This is the main help area for newcomers to FreeCAD.
 
@@ -65,7 +65,6 @@ Workbenches are collections of tools used for specific tasks. These are the base
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/352feb1b-6cd3-4506-a043-8f429332a6c0) The [TechDraw Workbench](docs\workbenches\techdraw.md) for producing technical drawings from 3D models.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/2db3eb21-c7b8-4d07-a91f-1926ee24c3ca) The [Test Framework Workbench](https://wiki.freecad.org/Testing) is for debugging FreeCAD.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/844ed741-56b0-44a9-a8ec-f0c885ec5109) The [Web Workbench](https://wiki.freecad.org/Web_Workbench) provides you with a browser window instead of the [3D view](https://wiki.freecad.org/3D_view) within FreeCAD.
-
 
 ### Macros
 

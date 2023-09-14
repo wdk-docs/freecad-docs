@@ -24,31 +24,31 @@ This is an extensive, but not complete, list of features which FreeCAD implement
   一个完整的参数模型。所有 FreeCAD 对象本身都是参数化的，这意味着它们的形状可以基于[属性](https://wiki.freecad.org/Property)，甚至依赖于其他对象。根据需要重新计算所有更改，并由撤销/重做堆栈记录。可以很容易地添加新的对象类型，甚至可以[完全用 Python 编程](https://wiki.freecad.org/Scripted_objects)。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/83835ee2-fc88-4048-b8c4-790d9bfe6005)  
-  模块化架构，允许插件扩展(模块)向核心应用程序添加功能。扩展可以像用 c++编写的整个新应用程序一样复杂，也可以像 Python 脚本或自记录宏一样简单。您可以从内置的**Python**解释器，宏或外部脚本中完全访问 FreeCAD 的几乎任何部分，无论是[几何图形创建和转换](https://wiki.freecad.org/Topological_data_scripting)，该几何图形的 2D 或 3D 表示([scenegraph](https://wiki.freecad.org/Scenegraph))甚至[FreeCAD 接口](docs\Python-scripting\pyside.md)。
+  模块化架构，允许插件扩展(模块)向核心应用程序添加功能。扩展可以像用 c++编写的整个新应用程序一样复杂，也可以像 Python 脚本或自记录宏一样简单。您可以从内置的**Python**解释器，宏或外部脚本中完全访问 FreeCAD 的几乎任何部分，无论是[几何图形创建和转换](https://wiki.freecad.org/Topological_data_scripting)，该几何图形的 2D 或 3D 表示([scenegraph](https://wiki.freecad.org/Scenegraph))甚至[FreeCAD 接口](docs\python-scripting\pyside.md)。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/eb3b2ef4-6e5d-4137-bb54-f9ef60f0d72c)  
   **导入/导出**等标准格式[步骤](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [DAE](http://en.wikipedia.org/wiki/COLLADA),[国际金融公司](http://en.wikipedia.org/wiki/Industry_Foundation_Classes),或[关闭](http://people.sc.fsu.edu/~jburkardt/数据/off.html),[NASTRAN](http://en.wikipedia.org/wiki/NASTRAN)， [VRML](http://en.wikipedia.org/wiki/VRML)除了 FreeCAD 的本地**[FCStd](https://wiki.freecad.org/File_Format_FCStd)**)文件格式。FreeCAD 和给定文件格式之间的兼容性级别可能会有所不同，因为它取决于实现它的模块。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/2edcff1e-a597-4694-b277-0bdaafc30bbe)  
-  [Sketcher](docs\workbench\Sketcher.md)集成约束求解器，允许您绘制几何约束的 2D 形状。使用 Sketcher 构建的受限 2D 形状可以作为在 FreeCAD 中构建其他对象的基础。
+  [Sketcher](docs\workbenches\sketcher.md)集成约束求解器，允许您绘制几何约束的 2D 形状。使用 Sketcher 构建的受限 2D 形状可以作为在 FreeCAD 中构建其他对象的基础。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/1440bb6a-fd84-4a7c-a614-1ac8d987d232)  
-  一个[机器人仿真](docs\workbench\Robot.md)模块，允许您在图形环境中研究机器人的运动。
+  一个[机器人仿真](docs\workbenches\robot.md)模块，允许您在图形环境中研究机器人的运动。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/c8ff8f2a-02e4-4ea0-b0d8-d7484527d7f7)  
-  一个[技术绘图模块](docs\workbench\techdraw.md)，具有详细视图，横断面视图，尺寸和其他选项，允许您生成现有 3D 模型的 2D 视图。然后，该模块生成准备导出的 SVG 或 PDF 文件。
+  一个[技术绘图模块](docs\workbenches\techdraw.md)，具有详细视图，横断面视图，尺寸和其他选项，允许您生成现有 3D 模型的 2D 视图。然后，该模块生成准备导出的 SVG 或 PDF 文件。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f2239533-28f6-4b8b-b0ac-f832a89319f6)  
   一个[Rendering](https://wiki.freecad.org/Raytracing_Workbench)模块，可以导出 3D 对象以使用外部渲染器进行渲染。它目前只支持[povray](http://en.wikipedia.org/wiki/POV-Ray)和[LuxRender](http://en.wikipedia.org/wiki/LuxRender)，但预计将来会扩展到其他渲染器。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/891cecda-f7c7-4677-9e80-912ba32860a8)  
-  一个[架构模块](docs\workbench\arch.md)，允许[建筑信息模型](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)类似的工作流与[工业基础类](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC)兼容。
+  一个[架构模块](docs\workbenches\arch.md)，允许[建筑信息模型](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)类似的工作流与[工业基础类](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC)兼容。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/6347cfa2-4ca3-4e98-9a9b-0360d9bd8a6e)  
-  专用于[计算机辅助制造](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM)的机械加工的[路径模块](docs\workbench\Path.md)。使用 Path 模块，您可以输出、显示和调整用于控制目标机器的[G 代码](http://en.wikipedia.org/wiki/G-code)。
+  专用于[计算机辅助制造](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM)的机械加工的[路径模块](docs\workbenches\path.md)。使用 Path 模块，您可以输出、显示和调整用于控制目标机器的[G 代码](http://en.wikipedia.org/wiki/G-code)。
 
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e4216e76-cb9d-4416-b3cd-59cb49527d40)  
-  一个[集成电子表格](docs\workbench\Spreadsheet.md)和一个[表达式解析器](https://wiki.freecad.org/Expressions)，可用于驱动基于公式的模型并在中心位置组织模型数据。
+  一个[集成电子表格](docs\workbenches\spreadsheet.md)和一个[表达式解析器](https://wiki.freecad.org/Expressions)，可用于驱动基于公式的模型并在中心位置组织模型数据。
 
 ## 一般特征
 

@@ -3,7 +3,7 @@
 ## Introduction
 
 The ![Arch-Workbench](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/4c866953-d6f1-487d-9adf-b0686f135acf) Arch Workbench provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/blob/main/src/pages/workbenches/arch-ifc.md) (IFC) files, and production of 2D floor plans in combination with the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/44a4ccdf-bee2-455e-88c0-b07d8514e1b4)
- [TechDraw Workbench](docs\workbenches\techdraw.md).
+[TechDraw Workbench](docs\workbenches\techdraw.md).
 
 The Arch Workbench imports all tools from the ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ff077e19-016d-4c8e-bd3a-2b4e1acc355a) [Draft Workbench](docs\workbenches\draft.md), as it uses its 2D objects to build 3D parametric architectural objects. Nevertheless, Arch can also use solid shapes created with other workbenches like ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/028a5b15-4e61-4a62-aeb5-7585d1f06cbe)
 [Part](docs\workbenches\part.md) and ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/56be3f73-55b1-4edb-aeba-1cbb6e72b157) [PartDesign](docs\workbenches\part-design.md).
@@ -12,7 +12,7 @@ The BIM functionality of FreeCAD is now progressively split into this Arch Workb
 
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org/), with the ultimate goal of improving building design by using entirely free software.
 
-![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/49d6512a-4ec0-4141-9a4f-3497641de6bc)  
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/49d6512a-4ec0-4141-9a4f-3497641de6bc)
 
 ## Tools
 

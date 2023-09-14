@@ -1,8 +1,9 @@
-# 部分模块
+# 零件工作台
 
-## Introduction
+## 介绍
 
-The solid modelling capabilities of FreeCAD are based on the [OpenCASCADE Technology](https://wiki.freecad.org/OpenCASCADE) (OCCT) kernel, a professional-grade CAD system that features advanced 3D geometry creation and manipulation. The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/5f19cbb7-1ffa-426e-bd4d-a259abfacfb5) [Part Workbench](docs\workbenches\part.md) is a layer sitting on top of the OCCT libraries, that gives the user access to OCCT geometric primitives and functions. Essentially all 2D and 3D drawing functions in every workbench (![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ea065ab9-6d7b-4e07-8f60-22d1d4eb6f08) [Draft](docs\workbenches\draft.md), ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/39d49322-2447-4104-a7b8-78f775d4c8f0) [Sketcher](docs\workbenches\sketcher.md), ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f4d2c091-e3aa-4de0-9c29-dd756a9ee452) [PartDesign](docs\workbenches\part-design.md), etc.), are based on these functions exposed by the Part Workbench. Therefore, the Part Workbench is considered the core component of the modeling capabilities of FreeCAD.
+FreeCAD 的实体建模功能基于[OpenCASCADE 技术](https://wiki.freecad.org/OpenCASCADE) (OCCT)内核，这是一种专业级 CAD 系统，具有先进的 3D 几何创建和操作功能。
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/5f19cbb7-1ffa-426e-bd4d-a259abfacfb5) [零件工作台](<docs\ Workbench\part.md>)是位于 OCCT 库之上的一层，它允许用户访问 OCCT 几何原语和函数。基本上所有的 2D 和 3D 绘图功能在每个工作台(![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/ea065ab9-6d7b-4e07-8f60-22d1d4eb6f08) [Draft](docs\workbenches\Draft.md)， ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/39d49322-2447-4104-a7b8-78f775d4c8f0) [Sketcher](docs\workbenches\sketcher.md)，![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/f4d2c091-e3aa-4de0-9c29-dd756a9ee452) [PartDesign](docs\workbenches\part-design.md)等)，都是基于这些由零件工作台公开的函数。因此，零件工作台被认为是 FreeCAD 建模功能的核心组件。
 
 A more detailed discussion of Part workbench versus Part Design workbench can be found here: [Part and Part Design](https://wiki.freecad.org/Part_and_PartDesign).
 

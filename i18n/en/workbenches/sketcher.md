@@ -7,10 +7,10 @@ The FreeCAD ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus
 The Sketcher workbench features "constraints", allowing 2D shapes to follow precise geometrical definitions in terms of length, angles, and relationships (horizontality, verticality, perpendicularity, etc.). A constraint solver calculates the constrained extent of 2D geometry and allows interactive exploration of the degrees-of-freedom of the sketch.
 
 ![Sketcher workbench icon](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/0005bf1d-294e-49e3-989e-8c5040bcac96)  
-_Sketcher workbench icon_  
+_Sketcher workbench icon_
 
 ![A fully constrained sketch](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/cf710c33-990f-4618-aa1d-82c465a039ac)  
-_A fully constrained sketch_  
+_A fully constrained sketch_
 
 ## Basics of constraint sketching
 
@@ -39,9 +39,10 @@ There are two kinds of constraints: geometric and dimensional. They are detailed
 The Sketcher is not intended for producing 2D blueprints. Once sketches are used to generate a solid feature, they are automatically hidden. Constraints are only visible in Sketch edit mode.
 
 If you only need to produce 2D views for print, and don't want to create 3D models, check out the [Draft workbench](docs\workbenches\part-design.md). Unlike Sketcher elements, Draft objects don't use constraints; they are simple shapes defined at the moment of creation. Both Draft and Sketcher can be used for 2D geometry drawing, and 3D solid creation, although their preferred use is different:
+
 - The Sketcher Workbench is normally used together with the [Part](docs\workbenches\part.md) and [PartDesign](docs\workbenches\part-design.md) workbenches to create solids.
 - The Draft Workbench is normally used for simple planar drawings over a grid, as when drawing an architectural floor plan. In these situations Draft is mostly used together with the [Arch Workbench](docs\workbenches\arch.md).
-  
+
 The tool [Draft2Sketch](https://wiki.freecad.org/Draft_Draft2Sketch) converts a Draft object to a Sketch object, and vice versa. Many tools that require a 2D element as input work with either type of object as an internal conversion is done automatically.
 
 ## Sketching Workflow
@@ -80,9 +81,9 @@ The Sketcher Workbench tools are located in the Sketch menu and/or several toolb
 
 #### Sketcher edit tools toolbar ([introduced in version 0.21](https://wiki.freecad.org/Release_notes_0.21))
 
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bcee35f3-093a-4c7e-a8a4-b06297a12902) [Toggle grid](https://wiki.freecad.org/Sketcher_Grid): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu. 
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bcee35f3-093a-4c7e-a8a4-b06297a12902) [Toggle grid](https://wiki.freecad.org/Sketcher_Grid): Toggles the grid in the sketch currently being edited. Settings can be changed in the related menu.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/02f75db0-2932-40ea-bce1-0bf55a710af9) [Toggle snap](https://wiki.freecad.org/Sketcher_Snap): Toggles snapping in all sketches. Settings can be changed in the related menu.
-- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/029a120b-6b28-4dc4-9ad1-a31e2979092e) [Configure rendering order](https://wiki.freecad.org/Sketcher_RenderingOrder): The rendering order of all sketches can be changed in the related menu. 
+- ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/029a120b-6b28-4dc4-9ad1-a31e2979092e) [Configure rendering order](https://wiki.freecad.org/Sketcher_RenderingOrder): The rendering order of all sketches can be changed in the related menu.
 
 #### Other
 
@@ -114,8 +115,8 @@ These are tools for creating objects.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a4e536c7-86c1-4779-8d5e-69b4e87fdccd) [Polyline (multiple-point line)](https://wiki.freecad.org/Sketcher_CreatePolyline): Draws a line made of multiple line segments. Pressing the M key while drawing a Polyline toggles between the different polyline modes.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/da4f07ed-98b4-4d02-b71a-91a9ea171c30) [Create rectangle](https://wiki.freecad.org/Sketcher_CompCreateRectangles): This is an icon menu in the Sketcher toolbar that holds the following commands: [introduced in version 0.20](https://wiki.freecad.org/Release_notes_0.20)
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e0b30cd1-7f9d-42e4-abf7-2275d90f2e10) [Rectangle](https://wiki.freecad.org/Sketcher_CreateRectangle): Draws a rectangle from 2 opposite points.
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e5d6df42-a369-4f2d-ad17-ecb36a16f340) [Centered rectangle](https://wiki.freecad.org/Sketcher_CreateRectangle_Center): Draws a rectangle from a central point and an edge point. 
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a671829a-9024-43bb-b09e-14327e32f7d5) [Rounded rectangle](https://wiki.freecad.org/Sketcher_CreateOblong): Draws a rounded rectangle from 2 opposite points. 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/e5d6df42-a369-4f2d-ad17-ecb36a16f340) [Centered rectangle](https://wiki.freecad.org/Sketcher_CreateRectangle_Center): Draws a rectangle from a central point and an edge point.
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/a671829a-9024-43bb-b09e-14327e32f7d5) [Rounded rectangle](https://wiki.freecad.org/Sketcher_CreateOblong): Draws a rounded rectangle from 2 opposite points.
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/b2c9feb0-42b9-4a89-a168-6824e48b351e) [Create regular polygon](https://wiki.freecad.org/Sketcher_CompCreateRegularPolygon): This is an icon menu in the Sketcher toolbar that holds the following commands:
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/5ecb1c91-d6e9-470f-83c5-389966673d18) [Triangle](https://wiki.freecad.org/Sketcher_CreateTriangle): Draws a regular triangle inscribed in a construction geometry circle.
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3499b5cc-25ec-4c9b-9362-742c2bbf8748) [Square](https://wiki.freecad.org/Sketcher_CreateSquare): Draws a regular square inscribed in a construction geometry circle.
@@ -165,7 +166,7 @@ These are constraints associated with numeric data, for which you can use the [e
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7cde621c-f5c9-4166-b2fd-41f9b909b584) [Constrain radius or diameter](https://wiki.freecad.org/Sketcher_CompConstrainRadDia): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/dcb0a134-f9f5-4069-b175-446d9ba212dd) [Radius or weight](https://wiki.freecad.org/Sketcher_ConstrainRadius): Defines the radius of an arc or circle or the weight of a B-spline pole.
   - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/bdeadf50-4784-4689-a4a8-65e4da677d76) [Diameter](https://wiki.freecad.org/Sketcher_ConstrainDiameter): Defines the diameter of an arc or circle.
-  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/331260d3-72f6-4b18-99eb-61394443f43c) [Auto radius/diameter](https://wiki.freecad.org/Sketcher_ConstrainRadiam): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. [introduced in version 0.20](https://wiki.freecad.org/Release_notes_0.20) 
+  - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/331260d3-72f6-4b18-99eb-61394443f43c) [Auto radius/diameter](https://wiki.freecad.org/Sketcher_ConstrainRadiam): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. [introduced in version 0.20](https://wiki.freecad.org/Release_notes_0.20)
 - ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/564a80c7-640d-42a4-9565-dcb561ed0353) [Angle](https://wiki.freecad.org/Sketcher_ConstrainAngle): Defines the internal angle between two selected lines.
 
 #### Special constraints
@@ -256,4 +257,3 @@ The [Sketcher scripting](https://wiki.freecad.org/Sketcher_scripting) page conta
 For some ideas of what can be achieved with Sketcher tools, have a look at: [Sketcher examples](https://wiki.freecad.org/Sketcher_Examples).  
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/74dd7906-c311-4ed2-ac6b-62abe98b2386)
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/7ddb805d-4134-42c8-b5d7-7dd1228a6bf1)
-

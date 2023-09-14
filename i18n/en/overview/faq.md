@@ -45,6 +45,7 @@ Some parts of FreeCAD depend on an external Python module called Pivy. On Window
 ### I have display problems, the 3D view doesn't behave correctly, there is garbage when I move/rotate the view, etc.
 
 FreeCAD depends on OpenGL for displaying 3D contents, and therefore requires a working OpenGL environment. On some systems, OpenGL is not activated by default, and you might need to install or upgrade your graphics drivers. This problems happens most often on Linux systems or on virtual systems. If you are on a Linux-based system, try the following steps:
+
 - verify that your computer has a 3D-capable graphics board
 - type **glxinfo** in a terminal window, and check in the output that Direct Rendering is set to "yes", and that the OpenGL vendor/renderer/version matches your graphics card.
 - install other OpenGL-based software ([Blender](http://www.blender.org/), for example) and check if it runs and displays correctly.
@@ -68,6 +69,7 @@ There can be two paths to this problem: either some library is simply missing, t
 Please review the installing procedure ([Windows](https://wiki.freecad.org/Installing_on_Windows), [Linux](https://wiki.freecad.org/Installing_on_Linux), or [Mac](https://wiki.freecad.org/Installing_on_Mac)), make sure you installed all the required libraries (on most linux systems this is done automatically), and check what is the minimum version number for each of the components.
 
 If everything seems correct, describe the problem on the [forum](http://forum.freecadweb.org/) or [submit a bug](https://wiki.freecad.org/Tracker). If you are on a linux system, it is easy to do a debug backtrace, which provides very useful information about the crash to the developers:
+
 - in a terminal, type: **gdb freecad** (assuming package gdb is installed)
 - inside gdb, type **run**
 - after the crash, type **bt** to get the backtrace, that you can include in your bug report.
@@ -79,6 +81,7 @@ When starting FreeCAD the GUI appears almost immediately but the GUI is frozen a
 ### FreeCAD crashes on creating a new document or opening a file
 
 If FreeCAD crashes when it creates a new 3D view, try launching FreeCAD from a terminal. If a message error appears when the crash occurs, mentioning `Assertion Failed`, and a component name beginning with "So" (`SoBase`, `SoFieldContainer`, etc.), the chances are very high, especially if you are on Linux, that FreeCAD is trying to use two different versions of the Coin library, which causes the crash. To verify if that is indeed the problem, try the following:
+
 - Locate the FreeCAD executable (usually in **/usr/lib/FreeCAD/bin**)
 - Run the command **ldd FreeCAD** from a terminal
 - Note down the version of the **libCoin.so** library that FreeCAD is using (for example **libCoin.so.60**)
@@ -103,10 +106,11 @@ You most likely have bad windows regional settings set-up. Please check if you h
 ### FreeCAD was running normally, and suddenly it doesn't start anymore
 
 This can also happen if you had an older version of FreeCAD installed, and you upgraded to a newer version. In that process, the configuration files of FreeCAD might have been corrupted for some reason, and now FreeCAD cannot read them anymore, and fails to start. The solution is simply to delete these configuration files, so FreeCAD will recreate them on first run.
+
 - **On Windows**: Open the file explorer, and write** %APPDATA%\FreeCAD** as the file path. Once there, delete the files **user.cfg** and **system.cfg**
 - **On Linux**: Navigate to **/home/USERNAME/.local/share/FreeCAD** (version 0.20 and above) or **/home/USERNAME/.FreeCAD** (version 0.19 and below) and delete the files **user.cfg** and **system.cfg**
 - **On Mac**: Navigate to **/Users/USERNAME/Library/Preferences/FreeCAD** and delete the files **user.cfg** and **system.cfg**
-  
+
 FreeCAD should now start again normally with all its settings reset.
 
 There is a [Macro findConfigFiles](https://wiki.freecad.org/Macro_findConfigFiles) available to help in locating your configuration files. It can be installed using the Addon Manager in the Tools menu. **Tools → Addon Manager → Macros → findConfigFiles**. The macro will find your config file folder, copy it to the clipboard, and (attempt to) open that location with your default file browser. It makes no changes to your files or settings.
@@ -122,7 +126,7 @@ FreeCAD is [open-source software](http://en.wikipedia.org/wiki/Open-source_softw
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3b36d744-e21b-4e2f-96e1-9cfd00865af1)  
 _From the right button mouse_  
 ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/3bd4d56d-2f03-47a8-873c-cbc92a9a3088)  
-_From the menu Edit → Preferences_  
+_From the menu Edit → Preferences_
 
 FreeCAD has several different [navigation modes](docs\general-usage\navigation-styles.md) available that can be set in the preferences settings dialog or changed by right-clicking in the 3D view. For full details about the modes, see the [Mouse navigation](docs\general-usage\navigation-styles.md) page.
 
@@ -225,12 +229,12 @@ FreeCAD doesn't offer swag you can order to support the project. But you can cre
 
 ### Do I have to pay something to use FreeCAD?
 
-No. 
+No.
 FreeCAD is totally free to use, download, redistribute, or modify. It is [open-source software](https://en.wikipedia.org/wiki/Open_source), published under the terms of the [GNU Lesser General Public License 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), which guarantees you those freedoms and, even more important, guarantees you that these freedoms will never be taken from you.
 
 ### Can I reuse any part of the FreeCAD artwork or pieces of the website?
 
-Sure. 
+Sure.
 All the artwork (icons, banners, etc.) of FreeCAD are licensed LGPL, the same as the FreeCAD code. Help yourself on the [Artwork](https://wiki.freecad.org/Artwork) page. The website is a standard MediaWiki site; all graphic elements can freely be reused, and if you are curious about how to tweak the MediaWiki software as we did, look for the special Common CSS and JS pages.
 
 ### Can I reuse pieces of FreeCAD in another application?

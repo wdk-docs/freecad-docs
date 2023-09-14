@@ -1,8 +1,9 @@
-# PartDesign 工作台
+# 零件设计工作台
 
-## Introduction
+## 介绍
 
-The ![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/161bb635-f9a3-4fc3-82ca-d2d83616b38b) **PartDesign Workbench** provides advanced tools for modeling complex solid parts. It is mostly focused on creating mechanical parts that can be manufactured and assembled into a finished product. Nevertheless, the created solids can be used in general for any other purpose, such as [architectural design](docs\workbenches\arch.md), [finite element analysis](docs\workbenches\FEM.md), [machining and 3D printing](docs\workbenches\path.md).
+![image](https://github.com/FreeCAD/FreeCAD-documentation-docusaurus/assets/100439627/161bb635-f9a3-4fc3-82ca-d2d83616b38b) **零件设计工作台**为复杂实体零件的建模提供了先进的工具。
+它主要专注于创造可以制造和组装成成品的机械零件。然而，创建的实体通常可以用于任何其他目的，例如[建筑设计](docs\workbenches\arch.md)，[有限元分析](docs\workbenches\FEM.md)，[加工和 3D 打印](docs\workbenches\path.md)。
 
 The PartDesign Workbench is intrinsically related to the [Sketcher Workbench](docs\workbenches\sketcher.md). The user normally creates a Sketch, then uses the [PartDesign Pad](https://wiki.freecad.org/PartDesign_Pad) tool to extrude it and create a basic solid, and then this solid is further modified.
 
